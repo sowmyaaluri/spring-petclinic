@@ -179,7 +179,12 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
-
+  <distributionManagement>
+      <repository>
+          <id>nexus-releases</id>
+          <url>http://15.206.70.68:32768/repository/maven-releases/</url>
+      </repository>
+  </distributionManagement>
   <build>
     <plugins>
       <plugin>
